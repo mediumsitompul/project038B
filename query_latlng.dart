@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 class MyGoogle1 extends StatelessWidget {
-  String lat1a, lng1a;
+  final String lat1a, lng1a;
 
   MyGoogle1({super.key, required this.lat1a, required this.lng1a});
 
@@ -21,7 +21,7 @@ class MyGoogle1 extends StatelessWidget {
 }
 
 class MyGoogle2 extends StatefulWidget {
-  String lat1b, lng1b;
+  final String lat1b, lng1b;
 
   MyGoogle2({super.key, required this.lat1b, required this.lng1b});
 
